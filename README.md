@@ -184,12 +184,6 @@ Remove the rest, and inspect the waveform
 
 
 
-![Image](img/vitis-hls-15.png)
-
-It should look something like this:
-
-![Image](img/vitis-hls-16.png)
-
 ## 2. Hardware Setup in Vivado
 
 ### 2.1 Create New Project
