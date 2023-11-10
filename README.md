@@ -42,10 +42,10 @@ Open up Vitis 2023.2 and choose `Open Workspace`.
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/41b6197c-7f92-4b0e-9d10-09e3f0f22790)
 
 Choose where to create the workspace, create a new folder, and select that folder as the workspace.
-![Image](img_2/vitis-02.png)
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/0f875eb0-73c2-48b2-a31e-982e611b9ab9)
 
 After the workspace has loaded, click the `Create HLS Component` button.
-![Image](img_2/vitis-03.png)
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/63b93914-d99f-462c-b4ce-b0e988f28b5f)
 
 Set a name for the hls component and click `Next`
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/d6c2f056-5f84-4f46-9e62-65375dde6ac0)
