@@ -166,6 +166,22 @@ Run Cosimulation and press the `Waveform` button in the top menu and wait for th
 
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/87db3f53-0eea-4a51-8afb-8c75b74777e3)
 
+Locate the `Block-level handshake`
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/a9f57bcd-cf70-4ce7-8c18-d1e2dc5f60ac)
+
+And drag it to the top
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/0c5a8843-aa35-4bb7-8565-ec855c2f9c09)
+
+Locate the `input_r__output_r__return(axi_slave)`
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/414e0fa8-3935-447c-b568-22a5f0d45e1d)
+
+And drag it to the top
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/3e3f2b7f-ed79-403f-b6d7-5ee05cbbb1ec)
+
+Remove the rest, and inspect the waveform
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/9bf3dd87-1791-4dfa-a958-6856363c3d96)
+
+
 ![Image](img/vitis-hls-15.png)
 
 It should look something like this:
