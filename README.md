@@ -77,11 +77,6 @@ If the board does not show up, try clicking `Boards` again after searching and t
 
 If on Linux, also follow the instructions in the last post [here](https://forum.digilentinc.com/topic/16795-vivado-hls-board-files-for-the-zyboz7-20/).
 
-![Image](img/vitis-hls-05.png)
-
-
-![Image](img/vitis-hls-06.png)
-
 ### 1.2 Create Source Files
 On the left side in the Explorer window, right-click `Sources` and click `New
 file`. Add the files `fir.c` and `fir.h`.
