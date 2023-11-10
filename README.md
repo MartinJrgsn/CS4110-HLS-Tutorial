@@ -94,12 +94,15 @@ The source code can be found here:
 The files should now look like this:
 
 `fir.h`
+
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/5e716d2e-da83-488c-b124-8bf63b93c1eb)
 
 `fir.c`
+
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/48953be3-61f2-4bb5-9edb-275bfe898053)
 
 `tb.c`
+
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/44191923-92fa-4693-952d-70a1fbc1f74e)
 
 Click gear-icon on the right side of `C SYNTHESIS`. 
