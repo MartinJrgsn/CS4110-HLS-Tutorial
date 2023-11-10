@@ -162,6 +162,9 @@ In the Flow navigator window, click `Run` under the  `C/RTL COSIMULATION`.
 #### [Optional] View the waveform
 
 Run Cosimulation and press the `Waveform` button in the top menu and wait for the Vivado program to open.
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/1efb7b7f-cabc-4b22-8d5e-91412becda06)
+
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/87db3f53-0eea-4a51-8afb-8c75b74777e3)
 
 ![Image](img/vitis-hls-15.png)
 
