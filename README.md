@@ -102,9 +102,14 @@ The files should now look like this:
 `tb.c`
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/44191923-92fa-4693-952d-70a1fbc1f74e)
 
-Go to `Project` --> `Project Settings` --> `Syntesis`. Select `fir.c` and click `Browse` to select the top level function for synthesis. In our case this is `fir`.
+Click gear-icon on the right side of `C SYNTHESIS`. 
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/8a97578e-bdc7-402b-a446-4815b781716f)
 
-![Image](img/vitis-set-top-function.png)
+Search for top.
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/130cef9e-c8a4-4943-8f92-b5f73a71b4c3)
+
+Click `Browse` to select the top level function for synthesis. In our case this is `fir.c`.
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/eac6f38d-d292-4972-a638-7f45267b1760)
 
 ### 1.4 Simulation and Synthesis
 In the Flow navigator window as seen below:
