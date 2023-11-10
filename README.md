@@ -193,13 +193,18 @@ Create a new Vivado project and do not create any files.
 Remember to select the correct board file. You can find it by searching for `Zybo`. (You might have to click the 'Refresh' button).
 Ensure that the `Board Rev` is `B.4`.
 
-![Image](img/vivado-01.png)
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/82e9f247-3f18-49d1-b703-1acfa834cc00)
+
 
 ### 2.2 Create Block Design
 
 In the `Flow Navigator` window, under `IP INTEGRATOR` click `Create Block Design`.
 
-![Image](img/vivado-02.png)
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/68607a17-9a05-4e05-91a1-2041f21b8ed6)
+
+Click `OK`
+
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/440003db-0a06-4876-aa57-98b9373fa0ab)
 
 In the `Diagram` window, press the `+` button or right-click and press `Add IP`.
 
@@ -207,9 +212,19 @@ Search for `Zynq` in the pop-up window and double-click `ZYNQ7 Processing System
 
 ![Image](img/vivado-03.png)
 
-Locate the ZIP file that we exported in step [1.5](#15-export-rtl-as-ipxo), and unzip the file.
+In Vitis 2023.2, click `RUN` under `PACKAGE`
 
-![Image](img/vivado-04.png)
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/7156413c-a005-40a2-9a30-afa65a836a29)
+
+
+Locate the ZIP file that we just exported, and unzip the file.
+
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/61909568-4206-4d44-a4ff-feaf16e9d704)
+
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/8f8f7514-82b2-4f13-a62e-90b1fa8c886f)
+
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/11b09d5e-034c-4f86-86dc-d02e097baf7f)
+
 
 Go back to the `Flow Navigator` window in Vivado and click `IP Catalog` under `PROJECT MANAGER`.
 
@@ -347,7 +362,7 @@ Specify a name and click next.
 
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/115153285/f0f9644e-5f2d-4840-9171-ed080b3ee248)
 
-Select the Fir_platform from earlier
+Select the `Fir_Platform` from earlier
 
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/115153285/f5d41ca4-3d3a-4e7c-9e1d-60f3d1248503)
 
@@ -376,6 +391,19 @@ Remember to set the boot mode jumper (21 in the Figure) to JTAG mode (to the far
 
 
 ![Image](img/vitis-15.png)
+
+
+Click the gear-icon to the right of `Run` under `Component`
+
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/5e2a797b-450b-4488-9905-c765667e1a2b)
+
+If `Board Initialization` is set to TCL, you might get an error.
+
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/4cdad469-cbb3-4ef2-b509-6d29d48e1898)
+
+Set `Board Initialization` to FSBL
+
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/7102ddc8-a264-4b8c-826b-04d93142249e)
 
 
 Run the component while the Zybo board is connected.
