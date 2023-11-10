@@ -39,7 +39,7 @@ The guide has been made for the USN course CS4110 by Kent Odde and Stian Onarhei
 
 ### 1.1 Create New Project
 Open up Vitis 2023.2 and choose `Open Workspace`.
-![Image](img_2/vitis-01.png)
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/41b6197c-7f92-4b0e-9d10-09e3f0f22790)
 
 Choose where to create the workspace, create a new folder, and select that folder as the workspace.
 ![Image](img_2/vitis-02.png)
