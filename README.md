@@ -47,13 +47,27 @@ Choose where to create the workspace, create a new folder, and select that folde
 After the workspace has loaded, click the `Create HLS Component` button.
 ![Image](img_2/vitis-03.png)
 
+Set a name for the hls component and click `Next`
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/d6c2f056-5f84-4f46-9e62-65375dde6ac0)
+
+Leave as is and click `Next`
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/77e4584b-e3db-4a26-9d66-fe528a5a69b5)
+
 For now, skip adding design and testbench files. We will do this at a later
 stage. Click `Next`.
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/7a1059a6-f684-4cf3-a2f1-9efacd0ae852)
 
-![Image](img/vitis-hls-03.png)
+Find the correct part and click `Next`
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/e2f555bf-4c96-46b5-b718-a74516c41ca6)
+
+
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/94db124d-1eff-4650-92a3-88a87ed19b5e)
+
+
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/13accd00-4dd6-4167-add4-caab39039b9a)
+
 
 Click the "Three horizontal dots" button under `Part Selection`.
-
 ![Image](img/vitis-hls-04.png)
 
 In the `Device Selection Dialog`, press `Boards` and search for `Zybo`.
