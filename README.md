@@ -115,21 +115,23 @@ Click `Browse` to select the top level function for synthesis. In our case this 
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/eac6f38d-d292-4972-a638-7f45267b1760)
 
 ### 1.4 Simulation and Synthesis
-In the Flow navigator window as seen below:
-
-![Image](img/vitis-hls-12.png)
+In the Flow navigator window:
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/273e78ba-3053-49b2-a2e7-e4a83d4ba9b3)
 
 Run the C simulation and ensure that the output looks something like this:
 ```
-utput:  Abbbbbbbbbbbbbbbbbb
-INFO: [SIM 211-1] CSim done with 0 errors.
-INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 23.45 seconds. CPU system time: 1.31 seconds. Elapsed time: 24.48 seconds; current allocated memory: 251.756 MB.
-Finished C simulation.
+ Output:  Abbbbbbbbbbbbbbbbbb
+ INFO: [SIM 211-1] CSim done with 0 errors.
+ INFO: [SIM 211-3] *************** CSIM finish ***************
+ INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 23.032 seconds; current allocated memory: 0.934 MB.
+ INFO: [HLS 200-1510] Running: close_project 
+ INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 0 seconds. Total elapsed time: 28.659 seconds; peak allocated memory: 169.469 MB.
+ INFO: [Common 17-206] Exiting vitis_hls at Fri Nov 10 14:14:04 2023...
+ INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 48s
+ C-simulation finished successfully
 ```
 
 Run the C Synthesis and ensure that the output looks something like this:
-
 ![Image](img/vitis-hls-13.png)
 
 The code is not optimised and has timing violations. Since this is only an example, this is fine.
