@@ -180,6 +180,8 @@ And drag it to the top
 
 Remove the rest, and inspect the waveform
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/9bf3dd87-1791-4dfa-a958-6856363c3d96)
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/162e5a5a-61b0-49a3-b4db-6d53c944b800)
+
 
 
 ![Image](img/vitis-hls-15.png)
