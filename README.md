@@ -66,10 +66,6 @@ Leave as is and click `Next`
 Click `Finish`.
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/13accd00-4dd6-4167-add4-caab39039b9a)
 
-
-Click the "Three horizontal dots" button under `Part Selection`.
-![Image](img/vitis-hls-04.png)
-
 In the `Device Selection Dialog`, press `Boards` and search for `Zybo`.
 To install board files, look at Jose and Manuels guide [here](https://usn.instructure.com/courses/24824/pages/w2-day-1-zybo-hw-development-tutorial?module_item_id=269761).
 
