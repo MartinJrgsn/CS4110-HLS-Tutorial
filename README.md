@@ -66,12 +66,6 @@ Leave as is and click `Next`
 Click `Finish`.
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/13accd00-4dd6-4167-add4-caab39039b9a)
 
-In the `Device Selection Dialog`, press `Boards` and search for `Zybo`.
-To install board files, look at Jose and Manuels guide [here](https://usn.instructure.com/courses/24824/pages/w2-day-1-zybo-hw-development-tutorial?module_item_id=269761).
-
-If the board does not show up, try clicking `Boards` again after searching and the board should appear. 
-
-If on Linux, also follow the instructions in the last post [here](https://forum.digilentinc.com/topic/16795-vivado-hls-board-files-for-the-zyboz7-20/).
 
 ### 1.2 Create Source Files
 On the left side in the Explorer window, right-click `Sources` and click `New
