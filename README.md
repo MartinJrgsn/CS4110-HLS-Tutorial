@@ -38,9 +38,9 @@ The guide has been made for the USN course CS4110 by Kent Odde and Stian Onarhei
 ## 1. High Level Synthesis in Vitis HLS
 
 ### 1.1 Create New Project
-Open up Vitis HLS and choose `Create Project`.
+Open up Vitis 2023.2 and choose `Open Workspace`.
 
-![Image](img/vitis-hls-01.png)
+![Image](img_2/vitis-1.png)
 
 Give the project a suitable name and location.
 
