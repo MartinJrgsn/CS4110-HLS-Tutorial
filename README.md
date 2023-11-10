@@ -68,16 +68,22 @@ Click `Finish`.
 
 
 ### 1.2 Create Source Files
-On the left side in the Explorer window, right-click `Sources` and click `New
-file`. Add the files `fir.c` and `fir.h`.
+On the left side in the Explorer window, right-click `Sources` and click `Add Source
+File`. 
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/89330e01-683f-4fcf-b57d-52249bc8e95c)
 
-Right-click on `Test Bench`, click `New file` and add the file `tb.c`.
+Add the files `fir.c` and `fir.h`.
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/22040adf-fdd3-4ccc-907f-e87acebebc23)
 
-![Image](img/vitis-hls-07.png)
+Right-click on `Test Bench`, click `Add Test Bench File`.
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/72d2b99b-d56d-428e-8df3-c18312965541)
+
+Add the file `tb.c`.
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/95d23d3a-26e4-49d4-825f-d918468cbe32)
+
 
 The file tree should now look like this:
-
-![Image](img/vitis-hls-08.png)
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/f4c514e4-89eb-4707-a2c2-481fab28efee)
 
 ### 1.3 Get Source Code from Github
 The source code can be found here:
