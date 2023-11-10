@@ -10,13 +10,13 @@ int main()
 
     XFir fir =
     {
-        .Control_BaseAddress = XPAR_FIR_0_S_AXI_CONTROL_BASEADDR,
+        .Control_BaseAddress = XPAR_XFIR_0_BASEADDR,
         .IsReady = 0
     };
 
     init_platform();
 
-    XFir_Config* const config = XFir_LookupConfig(XPAR_FIR_0_DEVICE_ID);
+    XFir_Config* const config = XFir_LookupConfig(XPAR_XSLCR_0_DEVICE_ID);
     const int ret = XFir_CfgInitialize( &fir, config);
     Xil_AssertNonvoid( ret == XST_SUCCESS );
 
