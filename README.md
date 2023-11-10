@@ -44,7 +44,11 @@ Open up Vitis 2023.2 and choose `Open Workspace`.
 
 Give the project a suitable name and location.
 
-![Image](img/vitis-hls-02.png)
+Choose where to create the workspace, create a new folder, and select that folder as the workspace.
+![Image](img_2/vitis-02.png)
+
+After the workspace has loaded, click the `Create HLS Component` button.
+![Image](img_2/vitis-03.png)
 
 For now, skip adding design and testbench files. We will do this at a later
 stage. Click `Next`.
