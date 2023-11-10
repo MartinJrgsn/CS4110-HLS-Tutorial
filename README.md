@@ -40,7 +40,7 @@ The guide has been made for the USN course CS4110 by Kent Odde and Stian Onarhei
 ### 1.1 Create New Project
 Open up Vitis 2023.2 and choose `Open Workspace`.
 
-![Image](img_2/vitis-1.png)
+![Image](img_2/vitis-01.png)
 
 Give the project a suitable name and location.
 
