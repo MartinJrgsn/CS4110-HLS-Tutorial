@@ -111,7 +111,7 @@ Click gear-icon on the right side of `C SYNTHESIS`.
 Search for top.
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/130cef9e-c8a4-4943-8f92-b5f73a71b4c3)
 
-Click `Browse` to select the top level function for synthesis. In our case this is `fir.c`.
+Click `Browse` to select the top level function for synthesis. In our case this is `fir.c` and click `OK`.
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/eac6f38d-d292-4972-a638-7f45267b1760)
 
 ### 1.4 Simulation and Synthesis
