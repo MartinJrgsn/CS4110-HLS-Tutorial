@@ -60,10 +60,10 @@ stage. Click `Next`.
 Find the correct part and click `Next`
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/e2f555bf-4c96-46b5-b718-a74516c41ca6)
 
-
+Leave as is and click `Next`
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/94db124d-1eff-4650-92a3-88a87ed19b5e)
 
-
+Click `Finish`.
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/13accd00-4dd6-4167-add4-caab39039b9a)
 
 
@@ -79,7 +79,6 @@ If on Linux, also follow the instructions in the last post [here](https://forum.
 
 ![Image](img/vitis-hls-05.png)
 
-Give the solution a suitable name and press `Finish`.
 
 ![Image](img/vitis-hls-06.png)
 
