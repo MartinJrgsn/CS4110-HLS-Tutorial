@@ -131,16 +131,19 @@ Run the C simulation and ensure that the output looks something like this:
  C-simulation finished successfully
 ```
 
-Run the C Synthesis and ensure that the output looks something like this:
-![Image](img/vitis-hls-13.png)
+Run the C Synthesis
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/fe1055c6-d84a-4f88-91da-e508b646a08b)
+
+Ensure that the report looks something like this:
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/853a4733-3bf6-4a5d-8799-5508cd622f6d)
+
 
 The code is not optimised and has timing violations. Since this is only an example, this is fine.
 
 #### [Optional] Improve the latency
 
 Swap out the content of `fir.c` with [fir_improved.c](src/hls/fir_improved.c) and run C Synthesis again.
-
-![Image](img/vitis-hls-17.png)
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/0aed7147-ee45-40f0-8979-a89713e7a09c)
 
 
 
