@@ -25,12 +25,12 @@
 ## Introduction
 This is a complete guide for utilising a Vitis HLS design with the Zybo Zynq-7000 development board. We will use a simple FIR (Finite Impulse Response) moving average filter as an example.
 
-The guide has been made for the USN course CS4110 by Kent Odde and Stian Onarheim upon request of Professor Jose Ferreira.
+The guide has been made for the USN course CS4110 by Martin Jørgensen and Nikolai Eidheim upon request of Professor Jose Ferreira.
+Guide forked from [Kent Odde and Stian Onarheim's original guide.](https://GitHub.com/oddek/CS4110-HLS-Tutorial)
 
 ## Prerequisites
-* Vitis 2021.X
-* Viviado 2021.X
-* Vitis HLS 2021.X
+* Vitis 2023.X
+* Vivado 2023.X
 * Zybo Zynq-7000 development board
 
 
