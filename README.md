@@ -72,20 +72,27 @@ Click `Finish`.
 Download [fir.c](src/hls/fir.c) and [fir.h](src/hls/fir.h).
 
 On the left side in the Explorer window, right-click `Sources` and click `Add Source
-File`. 
+File`.
+
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/89330e01-683f-4fcf-b57d-52249bc8e95c)
 
 Add the files `fir.c` and `fir.h`.
+
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/22040adf-fdd3-4ccc-907f-e87acebebc23)
 
+Download [tb.c](src/hls/tb.c)
+
 Right-click on `Test Bench`, click `Add Test Bench File`.
+
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/72d2b99b-d56d-428e-8df3-c18312965541)
 
 Add the file `tb.c`.
+
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/95d23d3a-26e4-49d4-825f-d918468cbe32)
 
 
 The file tree should now look like this:
+
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/f4c514e4-89eb-4707-a2c2-481fab28efee)
 
 ### 1.3 Get Source Code from Github
