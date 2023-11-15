@@ -68,6 +68,9 @@ Click `Finish`.
 
 
 ### 1.2 Create Source Files
+
+Download [fir.c](src/hls/fir.c) and [fir.h](src/hls/fir.h).
+
 On the left side in the Explorer window, right-click `Sources` and click `Add Source
 File`. 
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/89330e01-683f-4fcf-b57d-52249bc8e95c)
