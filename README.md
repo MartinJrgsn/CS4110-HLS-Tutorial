@@ -312,7 +312,8 @@ Choose the `Include bitstream` option and click the `Next` button.
 
 Choose a suitable XSA file name and location. In the final window, click the `Finish` button.
 
-![Image](img/vivado-22.png)
+![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/944d4093-3513-40fb-bdbb-dcc4cea0217f)
+
 
 ## 3. Application Setup in Vitis
 
