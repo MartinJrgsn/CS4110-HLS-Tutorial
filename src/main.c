@@ -3,6 +3,7 @@
 #include "platform.h"
 #include "xfir.h"
 #include "xil_printf.h"
+#include "xparameters.h"
 
 int main()
 {
@@ -10,7 +11,10 @@ int main()
 
     XFir fir =
     {
-        .Control_BaseAddress = XPAR_XFIR_0_BASEADDR,
+        // XPAR_XFIR_0_BASEADDR might need to be changed. 
+        // The parameter can be found in xparameters.h
+        // For our board (Zynq 7000) the value should be 0x40000000
+        .Control_BaseAddress = XPAR_XFIR_0_BASEADDR, 
         .IsReady = 0
     };
 
