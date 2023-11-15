@@ -7,7 +7,7 @@
 1. [High Level Synthesis in Vitis HLS](#1-high-level-synthesis-in-vitis-hls)
 	1. [Create New Project](#11-create-new-project)
 	1. [Create Source Files](#12-create-source-files)
-	1. [Get Source Code from Github](#13-get-source-code-from-github)
+	1. [Prepare the synthesis](#13-prepare-the-synthesis)
 	1. [Simulation and Synthesis](#14-simulation-and-synthesis)
 	1. [Export RTL as IP](#15-export-rtl-as-ip)
 1. [Hardware Setup in Vivado](#2-hardware-setup-in-vivado)
@@ -95,12 +95,6 @@ The file tree should now look like this:
 
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/f4c514e4-89eb-4707-a2c2-481fab28efee)
 
-### 1.3 Get Source Code from Github
-The source code can be found here:
-* [tb.c](src/hls/tb.c)
-* [fir.c](src/hls/fir.c)
-* [fir.h](src/hls/fir.h)
-
 The files should now look like this:
 
 `fir.h`
@@ -114,6 +108,9 @@ The files should now look like this:
 `tb.c`
 
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/44191923-92fa-4693-952d-70a1fbc1f74e)
+
+
+### 1.3 Prepare the synthesis
 
 Click gear-icon on the right side of `C SYNTHESIS`. 
 ![image](https://github.com/MartinJrgsn/CS4110-HLS-Tutorial/assets/72263169/8a97578e-bdc7-402b-a446-4815b781716f)
